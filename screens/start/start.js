@@ -33,13 +33,13 @@ export default class Start extends React.Component {
                                 onPress= {() => this.props.navigation.navigate('Login')}
                                 style = {styles.buttonLayout}    
                             >
-                                <Text style = {styles.buttonText}>Login</Text>
+                                <Text style = {styles.buttonText}>         Login</Text>
                             </TouchableOpacity>
                             <TouchableOpacity
                                 onPress= {() => this.props.navigation.navigate('Signin')}
                                 style = {styles.buttonLayout}    
                             >
-                                <Text style = {styles.buttonText}>Sign In</Text>
+                                <Text style = {styles.buttonText}>        Sign In</Text>
                             </TouchableOpacity>
                         </View>
                     </View>

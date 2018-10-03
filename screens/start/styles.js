@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
     },
     buttonText:{
         fontSize: fonts.bigger,
+        color: colors.buttonText,
     },
     igorText:{
         fontSize: fonts.biggest,
